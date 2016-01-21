@@ -1,0 +1,23 @@
+Unifi Easy Voucher Creator V4.0
+written by Wozzzzz from UBNT UniFi Forums.
+
+January 2016
+
+To suit Version 4.x.x of Unifi Controller, will NOT work on 3.x.x i dont think, not tried. you can try it and let us know if you like.
+
+you need a thermal printer, one that accepts POS/ESC commands, you can pick one of these up brand new from ebay for around AU$40-50
+just enter the words "USB 58mm POS Printer Thermal" and it lists them all.
+or search google for model number that i am using "ZJ-5890T". This is the model printer that i know works.
+other printers will work as well but they muct accept the POS/ESC commands and youll need to do a bit of recoding of this script.
+
+Install the printer, set it up as per the instructions on the supplied CD, name it something, what ever you name it
+you must enter this name in the unificreatevoucher.php script under the printer variable.
+
+All you have to do is download with current directory structure change then change some variables in unificreatevoucher.php, 
+then run it and thats about it. Should work.
+
+it may throw up some PHP errors, i cant remember the ones, just google them as there are extensions in the php.ini file
+you need to uncomment that are required to make it work.
+
+But all up its not too hard.
+
